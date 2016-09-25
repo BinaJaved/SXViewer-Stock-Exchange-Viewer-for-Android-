@@ -1,1 +1,1 @@
-# SXViewer-Stock-Exchange-Viewer-for-Android-
+# SXViewer-Stock Exchange Viewer for Android
