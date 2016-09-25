@@ -10,12 +10,12 @@ SXViewer extracts real-time stocks data from Yahoo Finance Webservice.
 
 The source code has been divided into three parts, "SXViewer", “SXViewerCore” and “FinanceWebServide”. 
 
-*SXViewerCore*
+***SXViewerCore***
 SXViewerCore project is heart of program, it implements all core classes. SXViewerCore project is further divided into two sub-parts; namely Data Layer and Business Layer.
 Data Layer contains the SQLite database C# code.
 Business Layer contains the Stocks and StockManager classes (C# code).
 
-*Yahoo Finance Web Service:*
+***Yahoo Finance Web Service:***
 We used a .NET Web Service to get real time stock data. Web Services plays an important role to talk to an external database whatever the database is. To store data into Mobile, we can use Android's light Database - SQLite. In order to talk to external remote database, we need a Web Service to talk to database. 
 
 Web Methods from SXViewer Application:
@@ -38,7 +38,7 @@ The two classes, stock and stock manager, one we will be for creating a Data Rep
 SqLite Helper class used to do all database operations. The code is self explained and nothing much within the code to detail. 
 Only one Table was used for adding custom stock script. 
 
-*SXViewer*
+***SXViewer***
 “SXViewer” implements Android User Interface and also calls the core functionality written in “SXViewerCore” project. 
 It has below three sub-folders:
 Drawable: containing all graphic contents e.g. images 
