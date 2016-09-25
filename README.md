@@ -20,7 +20,9 @@ We used a .NET Web Service to get real time stock data. Web Services plays an im
 
 Web Methods from SXViewer Application:
 -StockExists 
+
 -GetStockQuote
+
 -GetStockChart 
 
 GetStockQuotes(): Send multiple stocks in a comma separated string and pass it as a parameter. This will return the XML of all the Stocks.
@@ -46,8 +48,13 @@ Layout: contains all layouts (screens we see in Android Application)
 Values: Global variables that we will use throughout the application 
 The step by step method of creating Professional Android Application is shown below, we built primarily five screens: 
 -Splash Screen  
+
 -Market Watch  
+
 -Stock Script Detail View 
+
 -Add Stock  
+
 -Get Stock Quote 
+
 -Show Stock Chart
