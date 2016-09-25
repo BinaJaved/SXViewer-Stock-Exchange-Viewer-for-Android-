@@ -19,6 +19,7 @@ Business Layer contains the Stocks and StockManager classes (C# code).
 We used a .NET Web Service to get real time stock data. Web Services plays an important role to talk to an external database whatever the database is. To store data into Mobile, we can use Android's light Database - SQLite. In order to talk to external remote database, we need a Web Service to talk to database. 
 
 Web Methods from SXViewer Application:
+
 -StockExists 
 
 -GetStockQuote
